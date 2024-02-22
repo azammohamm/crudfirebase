@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   firebase_core: ^2.25.4
   firebase_auth: ^4.17.4
+  cloud_firestore: ^4.15.5
   get: ^4.6.6
   sizer: ^2.0.15
   intl: ^0.18.1
@@ -49,6 +50,7 @@ dependencies:
   flare_flutter: ^3.0.0
   url_launcher: ^6.0.10
   flutter_svg: ^2.0.9
+
 
 dev_dependencies:
   flutter_test:
