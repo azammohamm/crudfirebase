@@ -1,6 +1,6 @@
-
 import 'dart:io';
 
+import 'package:crudperform/Screens/home/export.dart';
 import 'package:crudperform/Screens/splash_screen/splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
@@ -71,7 +71,7 @@ class MyApp extends StatelessWidget {
           ),
           initialBinding: AppBindings(),
           debugShowCheckedModeBanner: false,
-          home:const SplashView(),
+          home:const HomeViewScreen(),
           //home: TestingView(),
         );
       },

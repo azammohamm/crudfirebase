@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:crudperform/Screens/home/homeView.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -23,7 +24,7 @@ class _SplashViewState extends State<SplashView> {
           () {
         //code here to next screen
         Future.delayed(Duration.zero, () {
-          Get.off(() => const SignInView(), binding: AppBindings());
+          Get.off(() =>  HomeViewScreen(),);
         });
       },
     );
